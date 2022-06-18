@@ -8,6 +8,7 @@ body {
     justify-content: center;
     font-family: 'Montserrat Alternates', sans-serifs;
     color: #fff;
+    background-color: #000;
 }
 
 .app {
@@ -19,6 +20,7 @@ body {
     justify-content: start;
     background-color: black;
     border-radius: 1.5625rem;
+    border: 1px solid rgb(103, 103, 103);
 }
 
 .result {
@@ -31,10 +33,10 @@ body {
 }
 
 .value {
-    font-size: 30px;
     font-weight: bold;
     padding: 40px;
-
+    max-width: 289px;
+    font-size: 25px;
 }
 
 .keyboard {
@@ -75,4 +77,11 @@ body {
 .zero-btn {
     width: 46.5%;
     border-radius: 30px;
+}
+
+.dot-btn {
+    width: 63px;
+    border-radius: 50%;
+    height: 63px;
+    background-color: #aaa;
 }
